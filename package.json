@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-catalog-sample",
+  "version": "1.0.0",
+  "description": "Catalog of component on Nuxt.js",
+  "author": "AmatsukiKu",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "catalog": "nuxt --config-file ./catalog/nuxt.config.js -p 9001"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
